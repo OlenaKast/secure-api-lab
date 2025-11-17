@@ -46,3 +46,20 @@ Admin: admin1 / password123
 | **DELETE** | `/documents/1` | `X-Login: admin1`<br>`X-Password: password123` | - | **204** No Content | Успішне видалення. Відповідь не має тіла. |
 | **GET** | `/non-existent` | `X-Login: admin1`<br>`X-Password: password123` | - | **404** Not Found | Звернення до неіснуючого маршруту. |
 
+## Скріншоти
+### Отримання даних з роллю 'admin'
+![адмін](./photos/p1.png)
+### Створення ресурсу з роллю 'user'
+![юзер](./photos/p2.png)
+### Без поля title
+![юзер](./photos/p3.png)
+### Видалення документа з роллю 'admin'
+![адмін](./photos/p4.png)
+### Неіснуючий маршрут
+![адмін](./photos/p5.png)
+### Відображення у консолі
+![консоль](./photos/p6.png)
+### Тестування за допомогою Node.js скрипта
+![консоль](./photos/p7.png)
+
+[Переглянути історію змін (коміти)](https://github.com/OlenaKast/secure-api-lab/commits/main)
